@@ -15,6 +15,11 @@
 body {
 	background-color: #333;
 }
+
+
+table {
+  padding: 20px;
+}
 .FooterTextWhite {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: x-small;
@@ -32,6 +37,12 @@ a {
 	text-decoration: underline;
 	color: #666;
 }
+
+#bannerHolder {
+  background-color: white;
+  text-align: center;
+  padding-top: 20px;
+}
 </style>
 </head>
 
@@ -44,7 +55,7 @@ a {
 	
 <table width="700" border="0" cellpadding="0" cellspacing="0" align="center">
   <tr>
-    <td><img src="images/HEADER-AVEDA.jpg" width="700" height="100" /></td>
+    <td id="bannerHolder"><img src="../photos/aveda-banner.png" width="" height="100" /></td>
   </tr>
   <tr>
     <td bgcolor="#FFFFFF">
